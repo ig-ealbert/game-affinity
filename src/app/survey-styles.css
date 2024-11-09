@@ -1,0 +1,11 @@
+#answersDisplay button {
+  margin: 5px;
+}
+
+.next {
+  background: lightgreen;
+}
+
+.hidden {
+  display: none;
+}

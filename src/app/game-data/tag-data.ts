@@ -1,0 +1,17 @@
+export const tagData: Record<string, string[]> = {
+  'Single Player': ['jrpg', 'platformer', 'arcade', 'rts',
+    'gacha', 'minis', 'puzzle', 'weird', 'music', 'rogue', 'superhero'],
+  'Multi Player': ['ccg', 'shooter', 'party', 'fighters', 'mmo'],
+  'Story': ['jrpg', 'gacha', 'superhero', 'mmo'],
+  'Quick and Easy': ['ccg', 'shooter', 'platformer', 'arcade', 'rts',
+    'minis', 'puzzle', 'weird', 'party', 'music', 'rogue', 'fighters'],
+  'Button mash': ['shooter', 'rts', 'gacha', 'fighters', 'mmo'],
+  'Keep it simple': ['jrpg', 'ccg', 'platformer', 'arcade', 'minis', 'puzzle',
+    'weird', 'party', 'music', 'rogue', 'superhero'],
+  'All the cute': ['jrpg', 'ccg', 'platformer', 'arcade', 'gacha', 'minis',
+    'puzzle', 'weird', 'party', 'music'],
+  'Realistic and violent': ['shooter', 'rts', 'rogue', 'fighters', 'superhero', 'mmo'],
+  'Discovery is fun': ['ccg', 'gacha', 'minis', 'weird', 'rogue', 'fighters'],
+  'Everything up front': ['jrpg', 'shooter', 'platformer', 'arcade', 'rts',
+    'puzzle', 'party', 'music', 'superhero', 'mmo'],
+};
