@@ -1,3 +1,23 @@
+# Game Affinity
+
+## Overview
+
+This is a quick and fun survey to provide newcomers to video gaming with some genre suggestions.
+
+I had a couple of people recently explain that they'd like to get into at least one video game soon, but don't know where to start. Problem solved!
+
+## Setup
+
+This setup assumes you have `git` and `npm` installed.
+
+```
+git clone https://github.com/ig-ealbert/game-affinity.git
+npm install
+npm run dev
+```
+
+## Creation
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -18,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I disabled tailwind's preflight because it removes the regular HTML formatting for things like headers and lists, which I use in this project.
 
 ## Learn More
 
