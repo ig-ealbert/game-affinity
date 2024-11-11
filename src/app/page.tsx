@@ -73,7 +73,8 @@ export default function Survey() {
   return (
     <div id='survey'>
       <h1>Game Affinity</h1>
-      <div id="questionDisplay" className={isSurveyComplete ? 'hidden' : ''}>
+      { !isSurveyComplete &&
+      <div id="questionDisplay">
         <h2>Answer the questions to find games you would like!</h2>
         <div id="questionText">{currentQuestionData.questionText}</div>
         <div id="answersDisplay">
@@ -90,7 +91,9 @@ export default function Survey() {
         </div>
         <p>Question {questionIndex + 1} of {questionList.length}</p>
       </div>
-      <div className={isSurveyComplete ? '' : 'hidden'}>
+      }
+      { isSurveyComplete &&
+      <div>
         <h2>Here are some games you might like!</h2>
         <p>The genres are listed in order of preference, based on your answers.
            Examples of each genre are provided as a starting point.
@@ -108,6 +111,7 @@ export default function Survey() {
           </ol>
         </div>
       </div>
+      }
     </div>
   )
 }
